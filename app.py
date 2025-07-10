@@ -31,7 +31,7 @@ headers = {"Authorization":f"token {st.secrets['github']['token']}"}
 
 payload = {
   "message": "Add data.csv",
-  "content": "content",
+  "content": "contents",
   "branch": "main"
 }
 
